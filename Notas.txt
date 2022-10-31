@@ -1,0 +1,8 @@
+text-transform: uppercase;
+    color: #101010;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-decoration-color: #101010;
+    text-decoration-thickness: 0.5rem;
+
+Utilizando tecnologías como nodejs, express y mongo db puedo ayudarte a darle ese plus a tus proyectos creando bases de datos propias de la aplicación que luego del lado del diseno se podra ver reflejado con diseno gráfico.

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>My portfolio</title>
+</head>
+
+<body>
+
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <div class="contenido-header">
+          <h1><a href="#inicio">CL</a></h1> <!-- Logo de Cesar Lara -->
+          <nav id="nav">
+            <ul id="links">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#sobremi">Sobre mi</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#portafolio">Portafolio</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+
+          <div id="icono-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div class="redes">
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div>
+      </header>
+      <div class="presentacion">
+        <p class="bienvenida">Bienvenidos</p>
+        <h2>Soy <span>Cesar Lara</span>, Desarrollador Web</h2>
+        <p class="descripcion">Una buena musica de fondo acompañado del sonido de las teclas... El ambiente perfecto.
+        </p>
+        <a href="#portafolio">Ir a portafolio</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobremi">
+    <div class="contenedor-foto">
+      <img src="./images/img2.jpg" alt="">
+    </div>
+    <div class="sobremi">
+      <p class="section-sobremi">Sobre mi</p>
+      <h2>Hola, soy <span>Cesar Lara</span></h2>
+      <h3>Desarrollador web</h3>
+      <p>Hola, me presento, soy Cesar Lara, apasionado por las tecnologías de la información y el mundo de la
+        programación. Dedicado, responsable, proactivo y lleno de curiosidad por lo desconocido.
+        Permiteme demostrarte el valor de mis palabras.
+        <br>
+        Iniciemos un camino juntos.
+      </p>
+      <a href="#">Descargar CV</a>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h3 class="titulo-section">
+      Mis servicios
+    </h3>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code fa-3x icon-responsive"></i></span>
+        <h4>Diseno de sitios web</h4>
+        <hr>
+        <ul class="services-tag">
+          <li>Web</li>
+          <li>Grafico</li>
+          <li>SEO</li>
+        </ul>
+        <p>Utilizando tecnologías como ReactJS y Redux puedo ayudarte en la maquetación de páginas web que se sientan
+          con vida, al permitirle al usuario poder interactuar con la misma.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="contenedor-skills">
+      <h3>Habilidades</h3>
+      <div class="skills">
+        <div class="skill">
+          <span class="icon"><i class="fa-brands fa-html5 fa-2x icon-responsive"></i></span>
+          <p>HTML5</p>
+        </div>
+        <div class="skill">
+          <span class="icon"><i class="fa-brands fa-css3 fa-2x icon-responsive"></i></span>
+          <p>CSS3</p>
+        </div>
+        <div class="skill">
+          <span class="icon"><i class="fa-brands fa-js fa-2x icon-responsive"></i></span>
+          <p>Javascript</p>
+        </div>
+        <div class="skill">
+          <span class="icon"><i class="fa-brands fa-react fa-2x icon-responsive"></i></span>
+          <p>React</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolio">
+    <h3 class="titulo-section">Mis proyectos</h3>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a href="https://9qbwx4.csb.app/"><img src="./images/img_portfolio1.jpeg" alt=""></a>
+        <div class="info">
+          <h4>Pokedex con React Router Dom y Redux</h4>
+          <p>Javascript con React</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <a href="https://oyjc9s.csb.app/"><img src="./images/img_portfolio2.jpeg" alt=""></a>
+        <div class="info">
+          <h4>E-commerce</h4>
+          <p>Javascript, React, Redux</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h3 class="titulo-section">Colaboremos juntos</h3>
+    <div class="contenedor-form">
+      <form action="">
+        <div class="fila mitad">
+          <input type="text" placeholder="Nombre completo" class="input-mitad">
+          <input type="text" placeholder="Dirección de email" class="input-mitad">
+        </div>
+        <div class="fila">
+          <input type="text" placeholder="Tema" class="input-full">
+        </div>
+        <div class="fila">
+          <textarea cols="30" rows="10" placeholder="Tu mensaje" class="input-full"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar mensaje" class="btn-enviar">
+      </form>
+    </div>
+  </section>
+
+</body>
+<script src="index.js"></script>
+
+</html>
